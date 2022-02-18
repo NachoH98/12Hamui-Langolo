@@ -45,11 +45,16 @@ nav ul{
     align-content: center;
 }
 nav li {
-    padding: 4px;
+    padding: 2px;
     margin-left: auto;
 }
+
+nav li:hover{
+    background-color: rgba(0,0,0,0.2);
+}
+
 nav ul a {
-    font-size: 19px;
+    font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: oblique;
     text-decoration: none;
