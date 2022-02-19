@@ -68,7 +68,34 @@ nav ul a {
 main {
     grid-area: 2 / 1 / 3 / 5;
     background-color: rgb(240, 235, 228);
-    
+}
+.main-div{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-top:35px ;
+}
+.main-div-descripcion{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+    margin: 10px;
+    border: double rgb(150, 108, 95);
+}
+main div p {
+    text-align: justify;
+    color: rgb(124, 91, 81);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-style: oblique;
+    margin: 15px;
+}
+main div h1 {
+    color: rgb(124, 91, 81);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-style: oblique;
+    margin-top: 15px;
 }
 
 /* ASIDE -----------------------------*/
