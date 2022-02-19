@@ -1,5 +1,6 @@
 *{
     margin: 0px;
+    background-color: rgb(238, 226, 209);
 }
 
 .grid-container {
@@ -36,6 +37,7 @@ nav {
     background-color: rgb(238, 226, 209);
 }
 nav ul{
+    width: 85%;
     height: 100%;
     padding: 2px;
     display: flex;
