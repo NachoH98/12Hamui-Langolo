@@ -74,7 +74,7 @@ main {
     display: flex;
     flex-flow: column;
     align-items: center;
-    margin-top:35px ;
+    margin-top: 10px ;
 }
 .main-div-descripcion{
     width: 80%;
@@ -96,6 +96,13 @@ main div h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
     font-style: oblique;
     margin-top: 15px;
+}
+.main-div-slideshow {
+    width: 100%;
+    margin-bottom: 25px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
 }
 
 /* ASIDE -----------------------------*/
