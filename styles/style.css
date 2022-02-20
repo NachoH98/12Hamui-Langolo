@@ -163,13 +163,14 @@ section {
 .section-img{
     width: 300px;
     height: 200px;
-    border-radius: 10px;
+    border-radius: 30px;
     display: block;
-    margin: 15px;
+    margin: 5px;
 }
 .section-cont-img{
-
+    border-radius: 30px;
     background-color: rgb(244, 223, 186);
+    margin: 5px;
 }
 .section-des {
     height: 100px;
@@ -179,7 +180,8 @@ section {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
     overflow: auto;
-    margin: 15px;
+    margin: 5px;
+    border-radius: 10px;
 }
 
 
