@@ -321,7 +321,7 @@ footer p {
         padding: 15px;
     }
     footer p {
-        font-size: 20px;
+        font-size: 15px;
     }
     footer div img{
         height: 40px;
@@ -343,13 +343,13 @@ footer p {
         border-radius: 5px;
     }
     .header-logo{
-        width: 50%;
-        height: 100%;
+        width: 70%;
+        height: 80%;
     }
     .header-titulo{
         display: none;
         color: rgb(150, 108, 95);
-        font-size: 30px;
+        font-size: 20px;
         font-style: oblique;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
@@ -358,7 +358,7 @@ footer p {
 /* NAV ------------------------------------------------------------- */
 
     nav ul a{
-        font-size: 40px;
+        font-size: 20px;
     }
     .nav-carrito-carrito{
         height: 40px;
@@ -367,7 +367,7 @@ footer p {
 
     /* MAIN */
     .main-img {
-        height: 1200px;
+        height: 1000px;
     }
 
 /* MAIN --------------------------------------------------------------- */
@@ -424,11 +424,11 @@ footer p {
         padding: 15px;
     }
     footer p {
-        font-size: 25px;
+        font-size: 20px;
     }
     footer div img{
-        height: 70px;
-        width: 70px;
+        height: 50px;
+        width: 50px;
     }
 
     
