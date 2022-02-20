@@ -246,6 +246,7 @@ footer p {
         height: 65%;
         width: 70%;
         border-radius: 20px;
+        border: 10px solid rgb(244, 223, 186);
     }
 
     footer div p{
