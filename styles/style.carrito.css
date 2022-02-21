@@ -8,7 +8,7 @@ html {
 .grid-container {
     display: grid;
     grid-template-columns: 10% 20% 60% 10%; 
-    grid-template-rows: 100px 400px 400px 100px;
+    grid-template-rows: 100px 400px 500px 100px;
 }
 
 
@@ -25,7 +25,7 @@ header {
 }
 .header-logo{
     width: 60%;
-    height: 100%;
+    height: 60%;
 }
 .header-titulo{
     color: rgb(150, 108, 95);
@@ -85,22 +85,49 @@ main {
     grid-area: 2 / 1 / 4 / 5 ;
     background-color: rgb(247, 240, 232);
     overflow: auto;
+    display: flex;
+    flex-flow: row;
+    justify-items: center;
+    justify-content: center;
 }
 .main-cont{
     display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    margin: 20px;
-}
-.main-menu-cont{
-    margin: 10px;
-}
-.main-menu-img{
-    width: 300px;
-    height: 300px;
-    border: solid 10px rgb(244, 223, 186);
+    width: 80%;
+    height: fit-content;
+    background-color: rgb(201, 144, 127);
     border-radius: 10px;
+    border: 1px solid rgba(0,0,0,0.2);
+    padding: 5px;
+    margin: 25px;
+    justify-content: center;
+    align-items: center;
+    align-content:center ;
 }
+.carrito-label{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(107, 75, 66);
+    margin-right: 5px;
+}
+.carrito-text{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+.carrito-sel{
+    display: flex;
+    justify-content: center;
+    margin: 15px 5px 5px 5px;
+}
+.carrito-cont-productos{
+    display: none;
+}
+.carrito-img{
+    height: 200px;
+    width: 200px;
+}
+
+
 /* ASIDE ---------------------------------------------------------------------*/
 
 .aside1{
@@ -152,7 +179,7 @@ footer p {
 
     .grid-container {
         grid-template-columns: 10% 15% 65% 10%; 
-        grid-template-rows: 70px 400px 400px 100px;
+        grid-template-rows: 70px 400px 500px 100px;
     }
 
     /* HEADER--------------------------------------------- */
@@ -205,42 +232,74 @@ footer p {
 /* MAIN --------------------------------------------------------------- */
 
 
-    main {
-        grid-area: 2 / 2 / 4 / 4;
-    
-    }
-
 
 /* FOOTER------------------------------------------------------------------------ */
 
 
-    footer {
-        grid-area: 4 / 1 / 5 / 5;
-        border-radius: 5px;
-        padding: 15px;
-    }
-    footer p {
-        font-size: 15px;
-    }
-    footer div img{
-        height: 40px;
-        width: 40px;
-    }
+footer {
+    grid-area: 4 / 1 / 5 / 5;
+    border-radius: 5px;
+    padding: 15px;
+}
+footer p {
+    font-size: 15px;
+}
+footer div img{
+    height: 40px;
+    width: 40px;
+}
 
-    
-    /* ASIDE */
-    /* SECTION */
-    /* FOOTER */
+
+/* ASIDE */
+/* SECTION */
+/* FOOTER */
 
 
 }
 @media screen and (min-width: 1400px){
     .grid-container {
         grid-template-columns: 10% 15% 65% 10%; 
-        grid-template-rows: 70px 1000px 800px 100px;
+        grid-template-rows: 70px 1000px 900px 100px;
     }
     .header-logo{
         height: 100%;
-        width: 20%;
+        width: 30%;
+    }
+    .main-cont{
+        display: flex;
+        width: 30%;
+        height: fit-content;
+        background-color: rgb(201, 144, 127);
+        border-radius: 10px;
+        border: 1px solid rgba(0,0,0,0.2);
+        padding: 5px;
+        margin: 25px;
+        justify-content: space-around;
+        align-items: center;
+        align-content:center ;
+    }
+    .carrito-label{
+        font-size: 18px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: rgb(107, 75, 66);
+        margin-right: 5px;
+    }
+    .carrito-text{
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .carrito-sel{
+        display: flex;
+        justify-content: center;
+        margin: 15px 5px 5px 5px;
+    }
+    .carrito-cont-productos{
+        display:flex;
+        flex-flow: column;
+    }
+    .carrito-img{
+        height: 300px;
+        width: 300px;
     }
 }

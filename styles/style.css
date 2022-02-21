@@ -325,7 +325,7 @@ footer p {
 @media screen and (min-width: 1420px){
     .grid-container {
         grid-template-columns: 15% 8% 62% 15%; 
-        grid-template-rows: 110px 1700px 1200px 100px;
+        grid-template-rows: 70px 1700px 1200px 100px;
     }
 
     /* HEADER--------------------------------------------- */
@@ -336,8 +336,8 @@ footer p {
         border-radius: 5px;
     }
     .header-logo{
-        width: 70%;
-        height: 80%;
+        width: 30%;
+        height: 100%;
     }
     .header-titulo{
         display: none;

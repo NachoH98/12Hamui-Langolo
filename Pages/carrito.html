@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="/styles/style.carrito.css">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" href="/Assets/favicon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Home
+        </title>
+    </head>   
+    <body>
+        <div class="grid-container">
+
+             <!-- HEADER -->
+
+            <header>
+                <img src="/Assets/favicon.png" alt="Logo" class="header-logo">
+                <h1 class="header-titulo">Langolo</h1>
+            </header>
+
+            <!-- NAV -->
+
+            <nav>
+                <ul>
+                    <li><a href="/index.htm">Home</a></li>
+                    <li><a href="/Pages/promos.html">Promos</a></li>
+                    <li><a href="/Pages/menu.html">Menu</a></li>
+                    <li class="nav-carrito"><a href="#" style="border: none;"><img src="/Assets/Carrito2.png" alt="Cart" class="nav-carrito-carrito"></a></li>
+                </ul>
+            </nav>
+
+            <!-- MAIN -->
+
+            <main>
+                <div class="main-cont">
+                    <div>
+                        <form class="main-carrito-form">
+                            <div class="carrito-completar">
+                                <label for="fnombre" class="carrito-label">Nombre :</label>
+                                <input type="text" id="fnombre" required>
+                                <br>
+                                <label for="domicilio" class="carrito-label">Domicilio:</label>
+                                <input type="text" id="fdirección" required>
+                            </div>
+                            <div class="carrito-text">
+                                <textarea placeholder="Informacion adicional del pedido"></textarea>
+                            </div>
+                            <div class="carrito-rad">
+                                <label for="fmetodo">Retiro en el local</label>
+                                <input type="radio" id="fmetodo" name="fmetodo">
+                                <label for="fmetodo">Delivery</label>
+                                <input type="radio" id="fmetodo" name="fmetodo">
+                                <label for="fmetodop"></label>
+                            </div>
+                            <div class="carrito-sel">
+                                <select name="fmetodop" id="fmetodop">
+                                    <option value="">Tarjeta</option>
+                                    <option value="">Efectivo</option>
+                                    <option value="">Mercadopago</option>
+                                </select>
+                            </div>
+                            <div class="carrito_items">
+                                <Label>Realizar la compra</Label>
+                                <input type="submit">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="carrito-cont-productos">   
+                        <h1 class="carrito-tit">En el Carrito</h1>
+                        <div class="carrito-productos">
+                            <ol>
+                                <li>Producto
+                                    <ul>
+                                    <img src="/Assets/Imagenes/waffles.jpg" alt="Facturas" class="carrito-img">
+                                </ul>
+                                <p class="carrito-des">descripcion</p>
+                                </li>
+                                <li>Producto
+                                    <ul>
+                                    <img src="/Assets/Imagenes/Torta 1.jpg" alt="Facturas" class="carrito-img">
+                                </ul>
+                                <p class="carrito-des">descripcion</p>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </main>
+
+            <!--ASIDE -->
+
+            <aside class="aside1">
+            
+            </aside>
+            <aside class="aside2">
+                
+            </aside>
+
+
+            <!-- SECTION -->
+
+            <section>
+                
+            </section>
+
+            <!-- FOOTER -->
+
+            <footer>
+                <div>
+                    <p>Copyrigth todos los derechos reservados</p>
+                </div>
+                <div>
+                    <img src="/Assets/instagram-logo.png" alt="Instagram" height="30px" width="30px">
+                    <img src="/Assets/twitter-logo-4.png" alt="Twitter" height="30px" width="30px">
+                    <img src="/Assets/1024px-Facebook_Logo_(2019).png" alt="Facebook" height="30px" width="30px">
+                </div>
+            </footer>
+        </div>    
+    </body>
+</html>
