@@ -215,10 +215,10 @@ footer p {
         grid-area: 2/1/4/3;
     }
     .main-tarjeta-des{
-        font-size: 20px;
+        font-size: 15px;
     }
     .main-tarjeta-tit{
-        font-size: 25px;
+        font-size: 20px;
     }
 
     /* SECTION ======================================================= */
@@ -250,12 +250,12 @@ footer p {
         border: 10px solid rgb(244, 223, 186);
     }
 
-    footer div p{
+    footer p {
         font-size: 18px;
     }
     footer div img{
-        height: 40px;
-        width: 40px;
+        height: 35px;
+        width: 35px;
     }
 }
 @media screen and (min-width: 1700px){
@@ -296,7 +296,7 @@ footer p {
         text-align: center;
         color: rgb(107, 75, 66);
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 35px;
+        font-size: 25px;
     }
     .main-tarjeta-cont-des{
         width: 75%;
@@ -305,8 +305,8 @@ footer p {
         overflow: auto;
     }
     .main-tarjeta-des{
-        font-size: 25px;
+        font-size: 15px;
         text-align: justify;
         color: rgb(107, 75, 66);
     }
-}
+    }

@@ -44,14 +44,15 @@
                                 <input type="text" id="fdirección" required>
                             </div>
                             <div class="carrito-text">
-                                <textarea placeholder="Informacion adicional del pedido"></textarea>
+                                <textarea placeholder="Informacion adicional del pedido" class="carrito-textarea"></textarea>
                             </div>
                             <div class="carrito-rad">
-                                <label for="fmetodo">Retiro en el local</label>
+                                <label for="fmetodo" class="carrito-label">Local</label>
                                 <input type="radio" id="fmetodo" name="fmetodo">
-                                <label for="fmetodo">Delivery</label>
+                                <span class="checkmark"></span>
+                                <label for="fmetodo" class="carrito-label">Delivery</label>
                                 <input type="radio" id="fmetodo" name="fmetodo">
-                                <label for="fmetodop"></label>
+                                <label for="fmetodo"></label>
                             </div>
                             <div class="carrito-sel">
                                 <select name="fmetodop" id="fmetodop">
@@ -61,29 +62,10 @@
                                 </select>
                             </div>
                             <div class="carrito_items">
-                                <Label>Realizar la compra</Label>
-                                <input type="submit">
+                                <Label class="carrito-label">Realizar la compra</Label>
+                                <input type="submit" class="Real-Compra">
                             </div>
                         </form>
-                    </div>
-                    <div class="carrito-cont-productos">   
-                        <h1 class="carrito-tit">En el Carrito</h1>
-                        <div class="carrito-productos">
-                            <ol>
-                                <li>Producto
-                                    <ul>
-                                    <img src="/Assets/Imagenes/waffles.jpg" alt="Facturas" class="carrito-img">
-                                </ul>
-                                <p class="carrito-des">descripcion</p>
-                                </li>
-                                <li>Producto
-                                    <ul>
-                                    <img src="/Assets/Imagenes/Torta 1.jpg" alt="Facturas" class="carrito-img">
-                                </ul>
-                                <p class="carrito-des">descripcion</p>
-                                </li>
-                            </ol>
-                        </div>
                     </div>
                 </div>
             </main>

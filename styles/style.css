@@ -314,18 +314,18 @@ footer p {
         padding: 15px;
     }
     footer p {
-        font-size: 15px;
+        font-size: 18px;
     }
     footer div img{
-        height: 40px;
-        width: 40px;
+        height: 35px;
+        width: 35px;
     }
 }
 
 @media screen and (min-width: 1420px){
     .grid-container {
         grid-template-columns: 15% 8% 62% 15%; 
-        grid-template-rows: 70px 1700px 1200px 100px;
+        grid-template-rows: 70px 1300px 1200px 100px;
     }
 
     /* HEADER--------------------------------------------- */
@@ -336,7 +336,7 @@ footer p {
         border-radius: 5px;
     }
     .header-logo{
-        width: 30%;
+        width: 50%;
         height: 100%;
     }
     .header-titulo{
@@ -370,10 +370,10 @@ footer p {
         grid-area: 2 / 2 / 3 / 4;
     }
     .main-img {
-        height: 1200px;
+        height: 800px;
     }
     main div p {
-       font-size: 30px;
+       font-size: 20px;
     }
     main div h1 {
         color: rgb(124, 91, 81);
@@ -391,18 +391,18 @@ footer p {
         grid-area: 3 / 2 / 4 / 4;
     }
      .section-img{
-        height: 500px;
-        width: 500px;
+        height: 300px;
+        width: 300px;
         margin: 20px;
     }
     .section-des{
-        width: 500px;
-        height: 200px;
+        width: 280px;
+        height: 170px;
         margin: 30px;
-        font-size: 25px;
+        font-size: 15px;
     } 
     .section-titulo{
-        font-size: 40px;
+        font-size: 30px;
         margin-bottom: 50px;
     }
 
