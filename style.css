@@ -127,7 +127,7 @@ main div h1 {
     align-items: center;
 }
 .main-img{
-    background-image: url(/Assets/Imagenes/waffles.jpg);
+    background-image: url(./assetss/Imagenes/waffles.jpg);
     animation: un_efecto 10s step-start 2s infinite alternate;
     background-size: cover;
     height: 250px;
@@ -214,11 +214,11 @@ footer p {
 }
 
 @keyframes un_efecto {
-    0% { background-image: url(/Assets/Imagenes/waffles.jpg);}
-    25% { background-image: url(/Assets/Imagenes/Torta\ 1.jpg);}
-    50% { background-image: url(/Assets/Imagenes/Brownies.jpg);}
-    75% { background-image: url(/Assets/Imagenes/Lemon-Pie.jpg);}
-    100% { background-image: url(/Assets/Imagenes/Facturas.jpg);}
+    0% { background-image: url(./assetss/Imagenes/waffles.jpg);}
+    25% { background-image: url(./assetss/Imagenes/Torta\ 1.jpg);}
+    50% { background-image: url(./assetss/Imagenes/Brownies.jpg);}
+    75% { background-image: url(./assetss/Imagenes/Lemon-Pie.jpg);}
+    100% { background-image: url(./assetss/Imagenes/Facturas.jpg);}
 }
 
 
@@ -228,12 +228,12 @@ footer p {
     .aside1{
         display: flex;
         grid-area: 1 / 1 / 5 / 1;
-        background-image:url(/Assets/FONDOWEB-6.png);
+        background-image:url(./assetss/FONDOWEB-6.png);
     }
     .aside2{
         display: flex;
         grid-area: 1 / 4 / 5 / 5;
-        background-image:url(/Assets/FONDOWEB-6.png);
+        background-image:url(./assetss/FONDOWEB-6.png);
     }
 
     .grid-container {
