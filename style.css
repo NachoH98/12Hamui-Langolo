@@ -228,12 +228,12 @@ footer p {
     .aside1{
         display: flex;
         grid-area: 1 / 1 / 5 / 1;
-        background-image:url(./assetss/FONDOWEB-6.png);
+        background-image:url(/assetss/FONDOWEB-6.png);
     }
     .aside2{
         display: flex;
         grid-area: 1 / 4 / 5 / 5;
-        background-image:url(./assetss/FONDOWEB-6.png);
+        background-image:url(/assetss/FONDOWEB-6.png);
     }
 
     .grid-container {
