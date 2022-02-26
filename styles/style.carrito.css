@@ -350,9 +350,10 @@ footer div img{
     /* labels e inputs ------------------------------------- */
 
     #fnombre{
-        font-size: 25px;
+        font-size: 18px;
     }
     #fdirección{
-        font-size: 25px;
+        margin-top: 15px;
+        font-size: 18px;
     }
 }
