@@ -214,12 +214,7 @@ footer p {
 }
 
 @keyframes un_efecto {
-    0% { background-image: url(/assetss/imagenes/waffles.jpg);}
-    25% { background-image: url(/assetss/imagenes/torta\ 1.jpg);}
-    50% { background-image: url(/assetss/imagenes/facturas.jpg);}
-    75% { background-image: url(/assetss/imagenes/brownies.jpg);}
-    100% { background-image: url(/assetss/imagenes/lemon-Pie.jpg);}
-}
+
 
 
 /* MEDIA QUERIES */
